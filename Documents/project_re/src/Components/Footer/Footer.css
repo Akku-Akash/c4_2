@@ -1,0 +1,90 @@
+.container {
+	background-color: #222222;
+	height: 330px;
+
+	max-width: 100%;
+	width: 100%;
+	font-family: mallory, arial, sans-serif;
+	font-size: 14px;
+	display: flex;
+	flex-direction: row;
+}
+.footer {
+	margin-top: 2%;
+}
+.container div {
+	height: 300px;
+	width: 50%;
+	background-color: #222222;
+
+	margin: 2%;
+}
+.callUs {
+	font-size: 17px;
+	text-transform: none;
+	color: #f97150;
+	font-weight: 800;
+}
+.phone {
+	font-size: 17px;
+	color: #ffffff;
+	margin-right: 8px;
+	font-weight: 800;
+	font-style: normal;
+	line-height: 1px;
+}
+.bookNow {
+	font-size: 15px !important;
+	color: #fff;
+}
+.ancor {
+	font-size: 13px !important;
+	color: #ccc !important;
+	text-decoration: none;
+	line-height: 2px;
+}
+.makePayment {
+	border-radius: 5px;
+	background-color: #316edd;
+	color: #fff;
+	margin-top: 10px;
+
+	position: relative;
+	display: inline-block;
+	min-width: 160px;
+	height: 40px;
+	padding: 0;
+	border-radius: 3px;
+	text-align: center;
+	font-style: italic;
+	font-family: Muli, helvetica, sans-serif;
+	font-display: swap;
+	overflow: hidden;
+	border: 1px solid transparent;
+	outline: none;
+	cursor: pointer;
+	-webkit-tap-highlight-color: transparent;
+}
+.makePayment:hover {
+	color: #f97150;
+}
+.p {
+	color: #fff;
+	font-weight: 400;
+	line-height: 1.5;
+}
+.img {
+	background-color: #181818;
+	height: 230px;
+}
+.img2 {
+	height: 200px;
+	max-width: 70%;
+	width: 70%;
+	margin-left: 15%;
+}
+.happyEnding {
+	margin: auto;
+	color: #fff;
+	margin-left: 590px;
+}

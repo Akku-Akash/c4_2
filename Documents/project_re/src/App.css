@@ -1,0 +1,178 @@
+.abc_1 {
+	width: 90%;
+	height: 28px;
+	cursor: pointer;
+}
+.main {
+	display: flex;
+	width: 100%;
+	height: 50px;
+}
+.Account_div{
+	display: flex;
+	gap: 10%;
+}
+
+.logo_1 {
+	margin-left: 15%;
+	margin-top: 1%;
+}
+.user_logo {
+	size: 200px;
+}
+.account_logo {
+	margin-left: 40%;
+	size: 200px;
+	display: flex;
+}
+.secondary_main > h4:hover {
+	text-decoration: underline;
+	text-decoration-color: blue;
+	color: black;
+	cursor: pointer;
+}
+.secondary_ {
+	margin-left: 20%;
+	display: flex;
+	gap: 10%;
+}
+.secondary_main {
+	height: 100%;
+	display: flex;
+	color: #838890;
+	margin-top: -.2%;
+}
+.secondary_main > h4 {
+	text-decoration: none;
+}
+.hotels {
+	width: 100%;
+	height: 200px;
+	border: 1px solid #007bff;
+	margin-top: 1%;
+	background-color: #007bff;
+}
+.inner_box {
+	margin-top: 5%;
+	margin-left: 18%;
+	color: white;
+	display: flex;
+	gap: 5%;
+}
+.all_date {
+	margin-top: 3%;
+	margin-left: -15%;
+}
+.all_date2 {
+	margin-top: 3%;
+	margin-left: -17%;
+}
+.all_inp {
+	width: 30%;
+	height: 45px;
+	margin-top: 3%;
+	margin-left: -18%;
+}
+.select {
+	width: 10%;
+	height: 45px;
+	margin-top: 3%;
+	margin-left: -12%;
+}
+.button {
+	width: 12%;
+	height: 45px;
+	margin-top: 3%;
+	margin-left: -4%;
+	background-color: #ff6900;
+	cursor: pointer;
+	color: white;
+}
+.mid_but {
+	margin-left: 45%;
+	width: 10%;
+	background-color: #06af61;
+	margin-top: 1%;
+	color: white;
+	cursor: pointer;
+}
+
+.hotel_main {
+	width: 60%;
+	height: 150px;
+	margin-left: 20%;
+	margin-top: 3%;
+	display: flex;
+}
+.image_hot {
+	width: 100%;
+	height: 100%;
+}
+.left {
+	width: 20%;
+	height: 100%;
+}
+.right {
+	margin-left: 2%;
+	width: 85%;
+	height: 100%;
+}
+.box_rate {
+	width: 30px;
+	height: 40px;
+	border-radius: 5px;
+	background-color: #06af61;
+	text-align: center;
+	justify-content: center;
+	color: white;
+}
+.lower_ {
+	display: flex;
+	margin-top: -3%;
+	color: #06af61;
+	gap: 10%;
+}
+.right > h3 {
+	color: #06af61;
+}
+
+.App-logo {
+	height: 40vmin;
+	pointer-events: none;
+}
+.price {
+	margin-left: 80%;
+	margin-top: -25%;
+}
+.price > button {
+	background-color: #ff6900;
+	height: 30px;
+	cursor: pointer;
+	margin-left: 50%;
+}
+@media (prefers-reduced-motion: no-preference) {
+	.App-logo {
+		animation: App-logo-spin infinite 20s linear;
+	}
+}
+/* .App-header {
+  background-color: #282C34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+} */
+.App-link {
+	color: #61dafb;
+}
+@keyframes App-logo-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
