@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import "./App.css"
 function App() {
   
   const [run, setRun] = useState({
@@ -34,7 +34,7 @@ function App() {
           Over:
           <h1 className="overCount">
             {
-             Math.floor(run.over/6)+((run.over%6)/10)
+            (run.over%6)/10 + run.over/6
               // Show Over here in the format: "over.ball" eg: 4.5 means 4th over and 5th ball
               // if 1 more ball is thrown then over is now 5.0
               // you have to write logic to form this string from current ball number.
@@ -90,7 +90,7 @@ function App() {
         <button className="addScore6"
         onClick={()=>{
           if(run.score > 100){
-        
+           
             setRun({
               score: run.score ,
               wicket : run.wicket,
@@ -145,7 +145,7 @@ function App() {
       <div className="addBall"
       onClick={()=>{
         if(run.score >= 100){
-        
+       
           setRun({
             score: run.score ,
             wicket : run.wicket,
@@ -167,7 +167,7 @@ function App() {
         {/* Increase the total number of balls thrown here. */}
         <button>Add 1</button>
       </div>
-       
+       <h2 className={`${run.score>100 ? "status": "notst"}`}>India Won</h2>
       {/* If score reaches greater than 100, show text "India Won" without quotes in h1 tag with class name 'status' */}
     </div>
   );
