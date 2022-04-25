@@ -1,15 +1,28 @@
-import { useState } from "react";
-import "./App.css"
+import { Home } from "./components/Home";
+import { Login } from "./components/Login";
+import { EmployeeList } from "./components/EmployeeList";
+import { EmployeeDetails } from "./components/EmployeeDetails";
+import { Admin } from "./components/Admin";
+// import { ProtectedRoute } from "./components/PrivateRoute";
+import { Navbar } from "./components/Navbar";
+import { Logout } from "./components/Logout";
+import { Route, Routes } from "react-router-dom";
+
+
 function App() {
-  
-  const [run, setRun] = useState({
-    score: 76,
-    wicket : 2,
-    over : 50,
-  })
   return (
     <div className="App">
-     <h1>Hello</h1>
+      <Navbar />
+      <Routes>{/* Routes here */}
+      <Route path = "/" element = {<Home/>}></Route>
+      <Route path = "/login" element = {<Login/>}></Route>
+      <Route path = "/employees" element = {<EmployeeList/>}></Route>
+      <Route path = "/logout" element = {<Logout/>}></Route>
+      <Route path = "/admin" element = {<Admin/>}></Route>
+      <Route path = "/employees/:id" element = {<EmployeeDetails/>}></Route>
+      </Routes>
+     
+
     </div>
   );
 }

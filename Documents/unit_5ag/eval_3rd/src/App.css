@@ -30,7 +30,24 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.navbar{
+   
+  margin-left: 2%;
+}
+.employee_card{
+  
+  display: grid;
+  grid-template-columns: repeat(2,100px);
+}
+.imoge{
+  display: flex;
+  gap: 5%;
+}
 
+.list_container{
+  margin-top: 5%;
+  
+}
 .App-link {
   color: #61dafb;
 }
