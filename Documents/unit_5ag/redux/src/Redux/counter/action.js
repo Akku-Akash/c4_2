@@ -1,6 +1,6 @@
 //action type
 export const Add_Count = "Add_Count"
-export const Add_todo = "add_todo"
+
 //action Creator
 export const addcount = (data)=>{
     return (
@@ -9,12 +9,4 @@ export const addcount = (data)=>{
          payload : data
     }
     )
-}
-export const addtodo = (data)=>{
-return (
-    {
-        type : Add_todo,
-        payload : data
-    }
-)
 }
