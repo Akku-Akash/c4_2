@@ -2,7 +2,10 @@
   display: flex;
   margin-left: space-evenly;
 }
-.app{
+.App{
   text-align: center;
 
+}
+td,th,table,tr{
+  border:solid black 1px
 }
